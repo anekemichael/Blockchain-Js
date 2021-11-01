@@ -1,4 +1,4 @@
-//Creating my first blockchain using javascript
+//Creating my first blockchain using Javascript
 const crypto = require("crypto"), SHA256 = message => crypto.createHash("sha256").update(message).digest("hex");
 
 class Block {
